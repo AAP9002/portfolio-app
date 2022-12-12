@@ -9,14 +9,35 @@ function App() {
         <p>
           <b>Alan Prophett</b> - Portfolio under construction
         </p>
-        <a
-          className="App-link"
-          href="https://github.com/AAP9002"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github
-        </a>
+        <div>
+          <a
+            className="App-link"
+            href="https://github.com/AAP9002"
+            target="_blank"
+            style={{padding:10}}
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <a
+            className="App-link"
+            href="https://www.linkedin.com/in/alan-prophett"
+            target="_blank"
+            style={{padding:10}}
+            rel="noopener noreferrer"
+          >
+            Linked In
+          </a>
+          <a
+            className="App-link"
+            href="https://gitlab.cs.man.ac.uk/z72819ap"
+            target="_blank"
+            style={{padding:10}}
+            rel="noopener noreferrer"
+          >
+            UoM Gitlab
+          </a>
+        </div>
       </header>
     </div>
   );
